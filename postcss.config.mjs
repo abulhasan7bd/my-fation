@@ -1,12 +1,5 @@
 export default {
-  content: [
-    "./**/*.{html,js}", 
-  ],
-  theme: {
-    extend: {
-    },
-  },
-    plugins: {
-      "@tailwindcss/postcss": {},
-    }
+  plugins: {
+    "@tailwindcss/postcss": {},
   }
+}
